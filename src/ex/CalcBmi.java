@@ -19,6 +19,8 @@ public class CalcBmi {
         double b = inputDouble("身長を入力してください（単位 m）");
         double a = inputDouble("体重を入力してください（単位 kg）");
 
+
+
         double c = a / Math.pow(b, 2);//bmi
         double d = (b * b) * 22;//ideal body weight
         c = Math.round((c  *10.0) / 10.0);
